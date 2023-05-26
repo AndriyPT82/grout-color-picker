@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grout-color-picker/static/css/main.351b8237.css",
+    "main.js": "/grout-color-picker/static/js/main.056b4540.js",
+    "static/js/787.3f1a7b3d.chunk.js": "/grout-color-picker/static/js/787.3f1a7b3d.chunk.js",
+    "index.html": "/grout-color-picker/index.html",
+    "main.351b8237.css.map": "/grout-color-picker/static/css/main.351b8237.css.map",
+    "main.056b4540.js.map": "/grout-color-picker/static/js/main.056b4540.js.map",
+    "787.3f1a7b3d.chunk.js.map": "/grout-color-picker/static/js/787.3f1a7b3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351b8237.css",
+    "static/js/main.056b4540.js"
+  ]
+}
