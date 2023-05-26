@@ -68,8 +68,9 @@ export const ColorPalette = ({ colorList, color, onSetIsOpenPalette }) => {
         <button
           className="palette__button-apply"
           onClick={() => {
-            // setCurrentColor(null)
-            handleClick({targetName: 'matchingColorsField',color: matchingColors})
+            console.log(chosenColors);
+
+            handleClick({targetName: 'matchingColorsField',color: chosenColors})
             setСhosenColors([])
             setMatchingColors([])
           }}

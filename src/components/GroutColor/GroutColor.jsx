@@ -32,7 +32,6 @@ export const GroutColor = () => {
   }, [])
 
   const handleClick = (obj) => {
-    console.log('matchingColorsField');
     const { targetName, color } = obj;
     switch (targetName) {
       case 'selectedColorField':
@@ -41,7 +40,6 @@ export const GroutColor = () => {
         break;
       case 'matchingColorsField':
         setAddedColors(prev => {
-          console.log(prev);
           return [...prev, ...color]
         })
         break
