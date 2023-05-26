@@ -1,0 +1,11 @@
+.toggle-palette {
+  background: none;
+  align-self: center;
+  margin-left: auto;
+  font-size: 20px;
+  border: none;
+
+  &--close {
+    margin-right: 10px;
+  }
+}

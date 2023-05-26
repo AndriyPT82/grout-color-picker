@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+::-webkit-scrollbar {
+	height: 0px;
+}
+
+$color-headings: #4F5B67;
+
+.grout-color {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	font-family: General Sans;
+	color: $color-headings;
+	width: 264px;
+	padding: 10px 24px;
+	background-color: #f3f3f3;
+
+	&__info-block {
+		position: relative;
+		display: flex;
+	}
+
+}
